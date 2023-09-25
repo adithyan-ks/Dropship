@@ -1,3 +1,5 @@
+const { Button } = require("bootstrap");
+
 $(function() {
     var image1_bg_color = '#317a5c';
     var image2_bg_color = '#dedede';
@@ -16,3 +18,26 @@ $(function() {
   
   // etc.
   });
+
+
+  // alert
+
+  function showAlert() {
+    alert('its 100% Free!');
+  }
+
+  // 
+
+  function changeClass(elementId) {
+    var element = document.getElementById(elementId);
+    element.classList.toggle('new-style');
+  }
+
+  // 
+
+  var count = 0;
+  function incrementCounter() {
+    count++;
+    document.getElementById('counter').textContent = count;
+  }
+  

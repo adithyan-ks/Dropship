@@ -454,6 +454,7 @@ body{
         align-items: center; 
         padding-top: 5%;
         background-color:#f2f6ff;
+        padding-bottom: 8%;
      }
     
       footer{
@@ -510,4 +511,12 @@ body{
       }
       .copyright{
         text-align: center;
+      }
+
+
+
+      /* JAva */
+
+      .new-style{
+        color: #ef1196; 
       }

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dropship</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -84,7 +84,7 @@
                 <div class="login1">
                     <form class="d-flex" role="search">
                         <button class="btn btn-light" style="margin-right: 20px;" type="submit">Log in</button>
-                        <button class="btn btn-primary" type="submit">Start Free Trail</button>
+                        <button onclick="showAlert()" class="btn btn-primary" type="submit">Start Free Trail</button>
                     </form>
                 </div>
             </div>
@@ -96,7 +96,7 @@
         <div class="row">
             <div class="part1">
                 <div class="main-head">
-                    <h1 class="heading-1"><strong>Discover <span class="heading-1-span">Winning <br>Products</span>To
+                    <h1 id="elementId" class="heading-1"><strong>Discover <span class="heading-1-span">Winning <br>Products</span>To
                             Sell</strong></h1>
                 </div>
                 <div class="head-desc">
@@ -105,7 +105,7 @@
                 </div>
                 <div class="buttons">
                     <div class="button1">
-                        <a id="start-btn" class="btn btn-primary" href="#" role="button">Start Free Trail</a>
+                        <a onclick="changeClass('elementId')" id="start-btn" class="btn btn-primary" href="#" role="button">Start Free Trail</a>
                     </div>
                     <div class="button2">
                         <a id="ext-bt" class="btn btn-light" href="#" role="button"><img
