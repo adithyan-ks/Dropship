@@ -341,3 +341,173 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+/* page 6 */
+
+.page-6{
+    height: 100vh;
+
+}
+.pg5{
+    padding-top: 5%;
+}
+.pg5 h1{
+    font-size: 40px;
+}
+
+/* page-7 */
+
+.page-7{
+    background-color: #f2f6ff;
+    padding-bottom: 5%;
+}
+.pg7 h1{
+    color: #151e3a;
+    font-size: 50px;
+    font-weight: 600;
+}
+.pg7{
+    padding-top: 3%;
+}
+
+/* slider */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .marquee3 {
+     overflow: hidden;
+  }
+  
+  .marquee3-content {
+    display: flex;
+    animation: scrolling 20s linear infinite;
+  }
+  
+  .marquee3-item {
+    flex: 0 0 16vw;
+    margin: 0 1vw;
+  /*   flex: 0 0 20vw; */
+  /*   margin: 0 2vw; */
+  }
+  
+  .marquee3-item img {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+
+  /*   padding: 0 20px; */
+  }
+  
+  @keyframes scrolling {
+    0% { transform: translateX(0); }
+    100% { transform: translatex(-144vw); }
+  }
+  .pg7-slider{
+   padding-top: 3%;
+  }
+  
+
+  /* page 8 */
+
+  .pg8{
+    align-items: center;
+    padding-top: 5%;
+  }
+  .pg8 button{
+    width: 15%;
+    margin-top: 2%;
+  }
+
+  .pg8 h1{
+    font-size: 50px;
+  }
+  .pg8 p{
+    margin-top: 2%;
+  }
+  .h2{
+    text-align: left;
+    padding-top: 10%;
+  }
+  .h2 h1{
+    font-size: 30px;
+  }
+
+  /* card */
+
+  .card{
+    margin: 2%;
+    border: 0;
+    cursor: pointer;
+  }
+
+    /* footer */
+
+    .footer1{
+        margin-top: 10%;
+        width: 100%;
+        display: grid;
+        align-items: center; 
+        padding-top: 5%;
+        background-color:#f2f6ff;
+     }
+    
+      footer{
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding-top: 50px;
+        padding-left: 150px;
+      }
+    
+      footer .container{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 30px;
+      }
+      footer .container h2{
+        position: relative;
+        font-weight: 500;
+        font-size: 18px;
+      }
+      .social{
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(5,50px);      
+        padding-left: 0%;
+      }
+      .about p{
+        color: #707ba0;
+      }
+      .social li a{
+        display: inline-block;
+        display: grid;
+        justify-content: center;
+        text-align: left;
+        text-decoration: none;
+        color: #009dff;;
+      }
+      .quicklinks li{
+        list-style: none;
+        font-size: 13px;
+        padding-bottom: 8%;
+      }
+      .quicklinks ul{
+        margin-top: 8%;
+        padding-left: 0%;
+      }
+      .quicklinks li a{
+        text-decoration: none;
+        color:#707ba0;
+      }
+      .Contact li{
+        list-style: none;
+      }
+      .copyright{
+        text-align: center;
+      }

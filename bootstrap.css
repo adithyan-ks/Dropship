@@ -108,6 +108,40 @@
     }
     .page-4{
         height: auto;
+        padding-bottom: 5%;
+    }
+    .page-5{
+        height: auto;
+    }
+    .page-6{
+        height: auto;
+    }
+    .mapimg{
+        width: 100%;
+    }
+    .pg5 h1{
+        width: 100%;
+        font-size: 18px;
+    }
+    .page-7{
+        height: auto;
+    }
+    .pg7-slider{
+        height: auto;
+    }
+    .pg7 h1{
+        font-size: 30px;
+    }
+
+    /* page 8 */
+    .page-8{
+        height: auto;
+    }
+    footer .container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .copyright p{
+        margin-left: -35px;
     }
  }
 
@@ -188,9 +222,51 @@
     }
     .page-4{
         height: auto;
+        padding-bottom: 5%;
+    }
+    .page-5{
+        height: auto;
+    }
+    .page-6{
+        height: auto;
+    }
+    .mapimg{
+        width: 100%;
+    }
+
+    /* page 7 */
+
+    .page-7{
+        height: auto;
+    }
+    .pg7-slider{
+        height: auto;
     }
   }
- 
+
+    /* page 8 */
+
+    .page-8{
+        height: auto;
+    }
+    .pg8 button{
+        width: 100%;
+    }
+    .pg8 h1{
+        font-size: 40px;
+    }
+    .pg8 p{
+        font-size: 12px;
+    }
+    /* footer */
+    .about{
+        margin-left: -70px;
+    }
+    .foot{
+        padding-left: 83px;
+    }
+    
+    
  /* Large devices (desktops, 992px and up) */
 
  @media (max-width: 3000px) and (min-width: 768px) { 
@@ -203,6 +279,35 @@
         .head-desc{
             width: 60%;
         }
-
+        .page-2{
+            height: auto;
+        }
+        .page-3{
+            height: auto;
+        }
+        .page-4{
+            height: auto;
+        }
+        .page-5{
+            height: auto;
+            margin-top: 5%;
+        }
+        .page-6{
+            height: auto;
+        }
+        .page-7{
+            height: auto;
+        }
+        
+        /* page 8 */
+        .pg8 button{
+            width: 20%;
+        }
+        .pg8 h1{
+            font-size: 50px;
+        }
+        .page-8{
+            height: auto;
+        }
   }
  
